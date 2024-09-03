@@ -14,7 +14,7 @@ music_model = load_model('music_model.h5')
 
 # Load tokenizer and emotion classifier
 tokenizer = AutoTokenizer.from_pretrained("SamLowe/roberta-base-go_emotions")
-classifier = pipeline("text-classification", model="SamLowe/roberta-base-go_emotions", tokenizer=tokenizer)
+#classifier = pipeline("text-classification", model="SamLowe/roberta-base-go_emotions", tokenizer=tokenizer)
 
 # Emotion to lyrics dictionary (English and Urdu)
 emotion_lyrics = {
